@@ -15,8 +15,7 @@ pids
 node_modules/
 
 # Vite build output
-dist/
-dist-ssr/
+
 
 # dotenv environment variables file
 .env
