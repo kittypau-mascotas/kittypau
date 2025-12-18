@@ -7,7 +7,7 @@ import {
   DialogFooter,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import kittyLogo from '@/assets/kitty-logo.jpg';
+import kittyLogo from '@/assets/logo-grande.jpg';
 
 interface InfoModalProps {
   isOpen: boolean;
