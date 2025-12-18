@@ -1,7 +1,5 @@
-import { Link } from 'wouter';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
-import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Gift, CheckCircle, Video, Heart, Activity, Shield, Instagram, Youtube, Linkedin } from 'lucide-react';
 import Autoplay from "embla-carousel-autoplay"
@@ -79,9 +77,7 @@ export default function LandingPage() {
                 <CardDescription>Anticípate a los problemas de salud con datos, no solo con instinto.</CardDescription>
               </div>
               <div className="flex-shrink-0">
-                <Link href="/login">
-                  <Button className="w-full sm:w-auto bg-[#FF847C] hover:bg-[#E56A5D]">Acceder a la App</Button>
-                </Link>
+                <Button disabled className="w-full sm:w-auto bg-[#FF847C] hover:bg-[#E56A5D]">Acceder a la App</Button>
               </div>
             </CardHeader>
             <CardContent className="grid md:grid-cols-3 gap-8 text-center">
