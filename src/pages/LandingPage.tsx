@@ -21,7 +21,7 @@ export default function LandingPage() {
       <div className="max-w-4xl mx-auto px-4">
         
         {/* Social Navbar Section */}
-        <nav className="bg-white/60 backdrop-blur-sm rounded-full p-2 mt-0 mb-4 max-w-min mx-auto sticky top-4 z-50">
+        <nav className="bg-[#F87A6D]/60 backdrop-blur-sm rounded-full p-2 mt-0 mb-4 max-w-min mx-auto sticky top-4 z-50">
           <div className="flex items-center gap-2">
             <a href="https://www.instagram.com/kittypau.mascotas/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <Button variant="ghost" size="icon" className="text-gray-500 hover:text-[#E1306C] transition-colors duration-300">
