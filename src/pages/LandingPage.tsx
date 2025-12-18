@@ -76,7 +76,8 @@ export default function LandingPage() {
                 <CardTitle className="text-2xl sm:text-3xl text-[#F87A6D]">Dispositivo IoT para Mascotas</CardTitle>
                 <CardDescription>Anticípate a los problemas de salud con datos, no solo con instinto.</CardDescription>
               </div>
-              <div className="flex-shrink-0">
+              <div className="flex flex-row items-center gap-2 flex-shrink-0">
+                <img src="/src/assets/flehca.jpg" alt="Arrow" className="w-12 h-12" />
                 <Button disabled className="w-full sm:w-auto bg-[#FF847C] hover:bg-[#E56A5D]">Acceder a la App</Button>
               </div>
             </CardHeader>
