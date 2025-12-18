@@ -46,7 +46,7 @@ export default function LandingPage() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <img src="/src/assets/kitty-logo.jpg" alt="Kittypau Logo" className="w-32 h-32 sm:w-40 sm:h-40 mx-auto" />
+              <img src="/src/assets/logo.jpg" alt="Kittypau Logo" className="w-32 h-32 sm:w-40 sm:h-40 mx-auto" />
               <h1 className="text-4xl sm:text-5xl font-bold text-[#F87A6D] mt-2">KittyPau!</h1>
             </div>
             {/* Carousel */}
