@@ -3,6 +3,8 @@ import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carouse
 import { Button } from '@/components/ui/button';
 import { Gift, CheckCircle, Video, Heart, Activity, Shield, Instagram, Youtube, Linkedin } from 'lucide-react';
 import Autoplay from "embla-carousel-autoplay"
+import logoGrande from '@/assets/logo-grande.jpg';
+import flehca from '@/assets/flehca.jpg';
 
 const carouselImages = [
   "/carousel-images/1.jpg",
@@ -46,7 +48,7 @@ export default function LandingPage() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <img src="/src/assets/logo-grande.jpg" alt="Kittypau Logo" className="w-32 h-32 sm:w-40 sm:h-40 mx-auto" />
+              <img src={logoGrande} alt="Kittypau Logo" className="w-32 h-32 sm:w-40 sm:h-40 mx-auto" />
               <h1 className="text-4xl sm:text-5xl font-bold text-[#F87A6D] mt-2">KittyPau!</h1>
             </div>
             {/* Carousel */}
@@ -77,7 +79,7 @@ export default function LandingPage() {
                 <CardDescription>Anticípate a los problemas de salud con datos, no solo con instinto.</CardDescription>
               </div>
               <div className="flex flex-row items-center gap-2 flex-shrink-0">
-                <img src="/src/assets/flehca.jpg" alt="Arrow" className="w-12 h-12" />
+                <img src={flehca} alt="Arrow" className="w-12 h-12" />
                 <Button disabled className="w-full sm:w-auto bg-[#FF847C] hover:bg-[#E56A5D]">Acceder a la App</Button>
               </div>
             </CardHeader>
